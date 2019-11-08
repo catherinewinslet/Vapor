@@ -1,0 +1,26 @@
+﻿.logo{
+    margin:auto;
+    padding-left:230px;
+    padding-top:10px
+}
+
+.mainmedium{
+    margin:auto;
+}
+
+.tinytext{
+    margin:5px;
+    background:none;
+}
+
+.t1{
+    float:left;
+}
+
+.t2{
+    float:right;
+}
+
+#Gridiew1{
+    overflow:auto;
+}

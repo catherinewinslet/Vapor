@@ -1,0 +1,75 @@
+﻿.topnav {
+    padding-top: 20px;
+    padding-left: 750px;
+}
+
+#Label5{
+    visibility:hidden;
+}
+
+.name1{
+    position:relative;
+    left:100px;
+    top:0;
+    background:none;
+    z-index:2;
+}
+
+.name2{
+    position:relative;
+    right:90px;
+    background:none;
+
+}
+
+.hline{
+    position:relative;
+    top:-550px;
+    left:500px;
+}
+
+.image1{
+    z-index:2;
+    position:absolute;
+    top:200px;
+    right:400px;
+    background:none;
+    border:none;
+}
+
+.image2 {
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    background:none;
+    border: none;
+    width: 400px;
+    height:400px;
+    border:1px solid white;
+    filter:blur(14px);
+    visibility:hidden;
+}
+
+.box{
+    width: 500px;
+    text-align:right;
+    margin: 20px 0 0 100px;
+}
+
+.button{
+    display:block;
+    position:relative;
+    top:70px;
+    left:100px;
+}
+
+.underline{
+    position:relative;
+    top:75px;
+    left:100px;
+}
+
+.detail{
+    font-size:20px;
+}

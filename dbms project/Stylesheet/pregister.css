@@ -1,0 +1,47 @@
+﻿.logo {
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.main1 {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.t1 {
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.t2 {
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.tinytext {
+    background: none;
+    position: relative;
+    top: 80px;
+    left: 275px;
+}
+
+.t3 {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.t4{
+    position:relative;
+    top:130px;
+    left:50px;
+}
+
+.button {
+    position: relative;
+    top: 170px;
+    left: 160px;
+}

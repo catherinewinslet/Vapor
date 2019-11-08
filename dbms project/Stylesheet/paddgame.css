@@ -1,0 +1,38 @@
+﻿.logo {
+    margin: auto;
+    padding-left: 230px;
+    padding-top: 10px
+}
+
+.addgame{
+    margin:auto;
+}
+
+div{
+    background:none;
+}
+
+.left{
+    float:left;
+    padding:5px;
+    border:3px solid white;
+}
+
+.textbox{
+    margin:20px;
+}
+
+.right {
+    float: right;
+    border: 3px solid white;
+}
+
+.button{
+    display:block;
+    margin-top: 30px;
+}
+
+.image{
+    margin: 10px;
+
+}

@@ -1,0 +1,45 @@
+﻿.left{
+    float:left;
+    margin-left:200px;
+}
+
+.right {
+    float: right;
+    margin-right: 200px;
+}
+
+.tinytext{
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.welcome{
+    display:block;
+    margin: 10px;
+}
+
+.login{
+    position: relative;
+    top: 100px;
+    left:160px;
+}
+
+.signup{
+    position:relative;
+    top:150px;
+    left:160px;
+}
+
+.logo{
+    text-align:center;
+    margin:auto;
+    padding-top:35px;
+}
+
+.heading{
+    text-align:center;
+    background:none;
+    padding-left:100px;
+    margin-top:70px;
+}

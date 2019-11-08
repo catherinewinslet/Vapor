@@ -1,0 +1,42 @@
+﻿.logo {
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.main1{
+    margin:auto;
+    padding-top:30px;
+}
+
+.heading {
+    text-align: center;
+    background: none;
+    padding-left: 120px;
+
+}
+
+.t1 {
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+.t2 {
+    position: relative;
+    top: 150px;
+    left: 70px;
+}
+
+.button{
+    position:relative;
+    top:170px;
+    left: 160px;
+}
+
+.tinytext{
+    position:relative;
+    top: 150px;
+    left: 250px;
+    background:none;
+}

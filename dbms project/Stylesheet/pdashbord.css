@@ -1,0 +1,36 @@
+﻿.logo {
+    margin: auto;
+    padding-left: 230px;
+    padding-top: 10px
+}
+
+.mainmedium{
+    width:700px;
+    margin-left:100px;
+    overflow:auto;
+    padding:30px;
+    height:500px;
+    z-index:2;
+}
+
+.hline{
+    position:relative;
+    right:300px;
+    bottom:800px;
+}
+
+.vline{
+    margin-bottom:30px;
+}
+
+.side{
+    width:400px;
+    position:absolute;
+    right:300px;
+    top:300px;
+}
+
+.detail{
+    display:block;
+    margin:20px;
+}

@@ -1,0 +1,72 @@
+﻿*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.center {
+    position:relative;
+    top:350px;
+    left:450px;
+
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    width: 573px;
+    height: 61px;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 1.105em;
+    text-transform: uppercase;
+}
+
+.rect {
+    position:relative;
+    top:490px;
+    left:565.5px;
+    border: 4.5px solid white;
+    background-color:white;
+    transform: rotate(90deg);
+    width: 300px;
+
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes SizeDown {
+    0% {
+        width: 300px;
+    }
+
+    100% {
+        width: 0px;
+    }
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    animation-delay: 6s;
+}
+
+a{
+    outline: none;
+    text-decoration:none;
+}
