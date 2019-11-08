@@ -25,11 +25,12 @@
 
             <div class="mainmedium">
                 
-                <p class="tinytext t1">Welcome, <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></p>
+                <p class="tinytext t1">Welcome, <asp:Label CssClass="label" ID="Label2" runat="server" Text="Label"></asp:Label></p>
                 
                 <!-- search for new game -->
                 <a class="tinytext t2" id="underline" href="../search/search.aspx"><u>search for a new game</u></a>
                 
+                <div class="overflow">
                 <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" style="margin-left: 45px; margin-top: 17px" Width="1131px" AutoGenerateColumns="false" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                     <Columns>
                         <asp:BoundField DataField="game_name" HeaderText="name"/>
@@ -49,7 +50,7 @@
                     <SortedAscendingHeaderStyle BackColor="#0D4AC4" />
                     <SortedDescendingCellStyle BackColor="#D6DFDF" />
                     <SortedDescendingHeaderStyle BackColor="#002876" />
-                </asp:GridView>
+                </asp:GridView></div>
 
                 
 

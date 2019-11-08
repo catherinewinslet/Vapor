@@ -6,6 +6,7 @@
 <head runat="server">
     <title>VAPOR</title>
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
+    <link rel="stylesheet" type="text/css" href="../Stylesheet/pedit.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
 
 </head>
@@ -19,16 +20,17 @@
        <path d="M13.1336 67.9507C12.0853 69.9092 8.98525 74.7848 10.5889 81.8715C11.7268 77.9122 12.7751 75.9536 14.8268 73.0368C16.1947 71.0922 22.8994 64.3705 27.9615 58.5789C31.2526 54.8137 33.0685 51.787 33.2926 46.7851C30.2374 50.6602 25.94 54.764 23.2131 57.3679C21.2061 59.2844 14.1819 65.9921 13.1336 67.9507Z" fill="#20DBE7"/>
        </svg></a>
        </div>
-
-                
+    <!-- line -->
+    <div class="hline"></div>
+                <div>
 
                 <!--image right-->
-                <div style="align-content:center">
-                <asp:GridView style="align-items:center" ID="GridView1" runat="server" AutoGenerateColumns="false" Height="16px" Width="505px">
+                <div class="right" >
+                <asp:GridView  ID="GridView1" runat="server" AutoGenerateColumns="false" >
                  <Columns>
-                    <asp:TemplateField HeaderText="image">
+                    <asp:TemplateField >
                           <ItemTemplate>
-                            <asp:Image ID="image1" runat="server" Width="300px" Height="300px" ImageUrl='<%#"data:Image/png;base64,"+Convert.ToBase64String ((byte[])Eval("img")) %>'/>
+                            <asp:Image ID="image1" runat="server" Width="500px" Height="500px" ImageUrl='<%#"data:Image/png;base64,"+Convert.ToBase64String ((byte[])Eval("img")) %>'/>
                           </ItemTemplate>
                     </asp:TemplateField>
                   </Columns>
@@ -36,31 +38,31 @@
                 </div>
 
                 <!--details left -->
-                <div class="pedit" >
+                <div class="left" >
 
                 <!-- line -->
                 <div class="vline"></div>
 
                 <!-- name -->
-                <p class="detail"><asp:Label ID="Label3" runat="server"></asp:Label>:
+                <p class="detail l1"><asp:Label ID="Label3" runat="server"></asp:Label>:
                 <asp:Label style="color:white" ID="Label10" runat="server"></asp:Label></p>
-                <asp:Button class="button" ID="Button1" runat="server" OnClick="Button1_Click" Text="Edit Name" />
-                <asp:TextBox class="textbox" ID="TextBox1" runat="server" placeholder="Game Name"></asp:TextBox>               
-                <asp:Button class="button" ID="Button4" runat="server" OnClick="Button4_Click" Text="save" />
+                <asp:Button class="button b1" ID="Button1" runat="server" OnClick="Button1_Click" Text="Edit Name" /><br />
+                <asp:TextBox class="textbox l1" ID="TextBox1" runat="server" placeholder="Game Name"></asp:TextBox>               
+                <asp:Button class="button" ID="Button4" runat="server" OnClick="Button4_Click" Text="save" /><br />
                 
                 <!-- size -->
-                <p class="detail"><asp:Label ID="Label4" runat="server"></asp:Label>:
+                <p class="detail l2"><asp:Label ID="Label4" runat="server"></asp:Label>:
                 <asp:Label style="color:white" ID="Label11" runat="server"></asp:Label></p>
-                <asp:Button class="button" ID="Button2" runat="server" OnClick="Button2_Click" Text="Edit Size " />
-                <asp:TextBox class="textbox" ID="TextBox2" runat="server" placeholder="Game Size"></asp:TextBox>                
-                <asp:Button class="button" ID="Button5" runat="server" OnClick="Button5_Click" Text="save" />
+                <asp:Button class="button b2" ID="Button2" runat="server" OnClick="Button2_Click" Text="Edit Size " /><br />
+                <asp:TextBox class="textbox l2" ID="TextBox2" runat="server" placeholder="Game Size"></asp:TextBox>                
+                <asp:Button class="button" ID="Button5" runat="server" OnClick="Button5_Click" Text="save" /><br />
                 
                 <!-- price -->
-                <p class="detail"><asp:Label ID="Label5" runat="server"></asp:Label>:
+                <p class="detail l3"><asp:Label ID="Label5" runat="server"></asp:Label>:
                 <asp:Label style="color:white" ID="Label12" runat="server"></asp:Label></p>
-                <asp:Button class="button" ID="Button3" runat="server" OnClick="Button3_Click" Text="Edit Price" />           
-                <asp:TextBox class="textbox" ID="TextBox3" runat="server" placeholder="Game Price" ></asp:TextBox>                
-                <asp:Button class="button" ID="Button6" runat="server" OnClick="Button6_Click" Text="save" />
+                <asp:Button class="button b3" ID="Button3" runat="server" OnClick="Button3_Click" Text="Edit Price" />   <br />        
+                <asp:TextBox class="textbox l3" ID="TextBox3" runat="server" placeholder="Game Price" ></asp:TextBox>                
+                <asp:Button class="button" ID="Button6" runat="server" OnClick="Button6_Click" Text="save" /><br />
                 
 
                 <asp:Label ID="Label13" runat="server"></asp:Label>
@@ -71,13 +73,12 @@
                 <asp:Label class="tinytext" ID="Label16" runat="server"></asp:Label>
 
                 <!-- done -->
-                <asp:Button class="button" ID="Button7" runat="server" OnClick="Button7_Click" Text="done" />
+                <br /><asp:Button class="button" ID="Button7" runat="server" OnClick="Button7_Click" Text="done" />
 
             </div>
 
-
-    <!-- line -->
-    <div class="hline"></div>
+    </div>
+    
 
 </form>
 </body>

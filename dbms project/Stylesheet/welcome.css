@@ -1,4 +1,10 @@
-﻿.left{
+﻿.logo {
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.left{
     float:left;
     margin-left:200px;
 }
@@ -40,6 +46,6 @@
 .heading{
     text-align:center;
     background:none;
-    padding-left:100px;
+    padding-left:50px;
     margin-top:70px;
 }

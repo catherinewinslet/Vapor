@@ -6,6 +6,7 @@
 <head runat="server">
     <title>VAPOR</title>
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
+    <link rel="stylesheet" type="text/css" href="../Stylesheet/administraor.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
 
 </head>
@@ -28,10 +29,8 @@
                 <!-- table -->
                 <div class="administraor">
 
-                    <!-- initial -->
-                    <p class="administraortext">choose a table to view</p>
 
-
+                    <div class="overflow">
                 <asp:GridView ID="GridView1" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" Width="1310px">
                     <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
                     <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
@@ -42,7 +41,7 @@
                     <SortedAscendingHeaderStyle BackColor="#B95C30" />
                     <SortedDescendingCellStyle BackColor="#F1E5CE" />
                     <SortedDescendingHeaderStyle BackColor="#93451F" />
-                </asp:GridView>
+                </asp:GridView></div>
 
                 </div>
 

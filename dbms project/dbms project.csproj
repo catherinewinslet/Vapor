@@ -88,9 +88,14 @@
     <Content Include="background7.jpg" />
     <Content Include="background8.jpg" />
     <Content Include="background9.jpg" />
+    <Content Include="Stylesheet\adminlogin.css" />
     <Content Include="Stylesheet\paddgame.css" />
     <Content Include="Stylesheet\pdashbord.css" />
+    <Content Include="Stylesheet\pdelete.css" />
+    <Content Include="Stylesheet\pedit.css" />
     <Content Include="Stylesheet\plogin.css" />
+    <Content Include="Stylesheet\pregister.css" />
+    <Content Include="Stylesheet\psearch.css" />
     <Content Include="Stylesheet\result.css" />
     <Content Include="Stylesheet\search.css" />
     <Content Include="Stylesheet\StyleSheet2.css" />

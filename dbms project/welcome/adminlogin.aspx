@@ -6,6 +6,7 @@
 <head runat="server">
     <title>VAPOR</title>
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
+    <link rel="stylesheet" type="text/css" href="../Stylesheet/adminlogin.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
 
 </head>
@@ -20,12 +21,11 @@
     <div class="main1">
             
         <h1 class="heading">admin</h1>
-        <asp:TextBox class="textbox" ID="TextBox1" runat="server" placeholder="Admin Id" ></asp:TextBox>
-        <asp:TextBox class="textbox" type="password" ID="TextBox2" runat="server" placeholder="Password" ></asp:TextBox>
+        <asp:TextBox class="textbox t1" ID="TextBox1" runat="server" placeholder="Admin Id" ></asp:TextBox>
+        <asp:TextBox class="textbox t2" type="password" ID="TextBox2" runat="server" placeholder="Password" ></asp:TextBox>
         
         <asp:Button  class="button" ID="Button1" runat="server" OnClick="Button1_Click" Text="LOGIN" />
         <asp:Label class="tinytext" ID="Label1" runat="server"></asp:Label>
-
     </div>
 
 </form>

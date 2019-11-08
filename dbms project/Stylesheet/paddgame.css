@@ -15,7 +15,7 @@ div{
 .left{
     float:left;
     padding:5px;
-    border:3px solid white;
+    margin:50px;
 }
 
 .textbox{
@@ -24,15 +24,20 @@ div{
 
 .right {
     float: right;
-    border: 3px solid white;
+    margin:100px;
 }
 
-.button{
-    display:block;
+.button {
+    display: block;
+    margin: auto;
     margin-top: 30px;
 }
 
 .image{
-    margin: 10px;
+    margin: auto;
+    display:block;
+}
 
+.underline{
+    margin-left:65px;
 }

@@ -6,8 +6,7 @@
 }
 
 .topnav{
-    width:100%;
-    height:150px;
+    height:100px;
     padding: 10px;
 }
 
@@ -21,6 +20,7 @@
     text-transform: uppercase;
     color: #20DBE7;
     text-shadow: 0 0 20px rgba(32, 219, 231, 0.34);
+    margin:auto;
 }
 
 .main1 {
@@ -87,6 +87,7 @@
     text-transform: lowercase;
     color: rgb(255, 255, 255);
     color: rgba(255, 255, 255, 0.73);
+    background:none;
 }
 
 .link {
@@ -101,6 +102,7 @@
     color: #A8A8A8;
     box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
+    padding-left:30px;
     font-family: Josefin Sans;
     font-weight: 300;
     font-size: 18px;
@@ -114,7 +116,7 @@
 
 .mainmedium {
     width: 1082px;
-    height: 868px;
+    height: 568px;
     background: #2E2E2E;
     box-shadow: 0 0 30px rgba(32, 219, 231, 0.7);
     border-radius:7px;
@@ -139,6 +141,7 @@
     letter-spacing: 0.075em;
     text-transform: lowercase;
     color: #A8A8A8;
+    background:none;
 }
 
 .picbg {
@@ -275,3 +278,7 @@
     .administraorbutton:active {
         color: grey;
     }
+
+.label{
+    background:none;
+}

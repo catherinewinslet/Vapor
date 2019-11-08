@@ -1,0 +1,36 @@
+﻿* {
+    margin: auto;
+}
+
+.topnav {
+    padding-top: 20px;
+}
+
+.text {
+    margin-top: 30px;
+    background: none;
+}
+
+.mainsmall {
+    float: right;
+    margin: 120px 80px 130px 0;
+}
+
+.button {
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.textbox {
+    width: 250px;
+    margin-top: 10px;
+    outline: none;
+}
+
+
+.underline{
+    position:absolute;
+   bottom:0;
+   right:10px;
+}

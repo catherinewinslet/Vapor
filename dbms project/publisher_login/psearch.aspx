@@ -6,6 +6,7 @@
 <head runat="server">
     <title>VAPOR</title>
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
+    <link rel="stylesheet" type="text/css" href="../Stylesheet/psearch.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
 
 </head>

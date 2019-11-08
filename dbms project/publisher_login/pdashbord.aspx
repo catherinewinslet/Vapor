@@ -21,6 +21,8 @@
          </svg>
          </p>
        </div>
+        <!-- line -->
+    <div class="hline"></div>
     <div>
     <div class="mainmedium">
         <!-- welcome -->
@@ -67,8 +69,7 @@
         
         </div></div>
 
-    <!-- line -->
-    <div class="hline"></div>
+
 
 </form>
 </body>

@@ -1,7 +1,8 @@
-﻿.logo {
-    margin: auto;
-    padding-left: 230px;
-    padding-top: 10px
+﻿
+
+.topnav {
+    padding-top: 20px;
+    padding-left: 750px;
 }
 
 .mainmedium{
@@ -11,6 +12,9 @@
     padding:30px;
     height:500px;
     z-index:2;
+    display:inline-block;
+    position:relative;
+    bottom:60px;
 }
 
 .hline{
@@ -26,11 +30,17 @@
 .side{
     width:400px;
     position:absolute;
-    right:300px;
+    right:150px;
     top:300px;
 }
 
 .detail{
     display:block;
     margin:20px;
+}
+
+.tinytext{
+    background:none;
+    padding-left:10px;
+    margin:5px;
 }

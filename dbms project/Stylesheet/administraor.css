@@ -1,0 +1,16 @@
+﻿
+
+.administraor{
+    margin:auto;
+    padding:20px;
+    height:500px;
+}
+
+.overflow{
+    overflow:auto;
+    height: 500px;
+}
+
+#Button1{
+    margin-left:100px;
+}

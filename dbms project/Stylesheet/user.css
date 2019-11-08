@@ -1,11 +1,13 @@
 ﻿.logo{
     margin:auto;
-    padding-left:230px;
-    padding-top:10px
+    width:60px;
+    background:none;
 }
 
 .mainmedium{
     margin:auto;
+    height:600px;
+    margin-top:10px;
 }
 
 .tinytext{
@@ -21,6 +23,10 @@
     float:right;
 }
 
-#Gridiew1{
+.overflow{
     overflow:auto;
+    height:550px;
+    width: 1000px;
+    margin:40px;
 }
+

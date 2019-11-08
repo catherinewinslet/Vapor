@@ -6,6 +6,7 @@
 <head runat="server">
     <title>VAPOR</title>
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
+    <link rel="stylesheet" type="text/css" href="../Stylesheet/pdelete.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
 
 </head>
@@ -24,9 +25,9 @@
         <div class="mainsmall">
             <p class="text">Enter game to delete</p>
             
-            <asp:TextBox class="textbox" style="text-align: center;" ID="TextBox1" runat="server" placeholder="Game Name" Width="342px"></asp:TextBox>
+            <asp:TextBox class="textbox" style="text-align: center;" ID="TextBox1" runat="server" placeholder="Game Name" ></asp:TextBox>
             
-            <asp:Button class="button" ID="Button1" runat="server" OnClick="Button1_Click" Text="DELETE" Width="347px" />
+            <asp:Button class="button" ID="Button1" runat="server" OnClick="Button1_Click" Text="DELETE"  />
             
             <asp:Label class="tinytext" ID="Label1" runat="server"></asp:Label>
         </div>

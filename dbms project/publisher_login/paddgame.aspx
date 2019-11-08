@@ -36,12 +36,12 @@
             <asp:Label class="tinytext" ID="Label1" runat="server" Text=""></asp:Label>
             
             <!-- back to dashboard -->
-            <a class="tinytext" href="pdashbord.aspx">back to dashboard</a>
+            <a class="underline" href="pdashbord.aspx">back to dashboard</a>
             </div>
 
             <div class="right">
             <!-- image -->
-            <asp:Image class="image" ID="Image1" runat="server" Height = "100" Width = "100" />
+            <asp:Image class="image" ID="Image1" runat="server" Height = "200" Width = "200" />
 
             <!-- Select Picture -->
             <asp:FileUpload ID="FileUpload1" runat="server" />
