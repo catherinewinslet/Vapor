@@ -8,6 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
     <link rel="stylesheet" type="text/css" href="../Stylesheet/result.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
+    <style>
+        #btd:hover{
+            color: rgba(32, 219, 231, 0.7)
+        }
+    </style>
 
 </head>
 <body>
@@ -50,7 +55,7 @@
                     <asp:Button CssClass="button" ID="Button1" runat="server"  OnClick="Button1_Click" Text="buy now"  /> 
                 
                     <!-- back to dashboard -->
-                    <a class="underline" href="../login/user.aspx">back to dashboard</a>
+                    <a class="underline" id="btd" href="../login/user.aspx" style="font-size:22px; border:double rgba(32, 219, 231, 0.7)">back to dashboard</a>
 
                 </div> 
                     
