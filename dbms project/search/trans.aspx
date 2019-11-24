@@ -34,7 +34,7 @@
                 <!-- password -->
                 <asp:TextBox CssClass="textbox" ID="TextBox2" runat="server" type="password" placeholder="password"></asp:TextBox>
                 <!-- show password -->
-                <p class="tinytext"><input type="checkbox" onclick="myFunction()"/>show password</p>
+                <p class="tinytext" style="padding-top:10px"><input type="checkbox" onclick="myFunction()"/>show password</p>
                 
                 <script>
                 function myFunction() {
@@ -56,7 +56,7 @@
                 
 
                 <!-- back to dashboard -->
-                <a class="underline" href="../login/user.aspx">back to dashboard</a>
+                <a class="underline" href="../login/user.aspx" style="font-size:22px; border:double rgba(32, 219, 231, 0.7);top:100px">back to dashboard</a>
                 </div>
             </div>
         </div>

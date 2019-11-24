@@ -149,6 +149,7 @@
     height: 500px;
     background: #C4C4C4;
     box-shadow: 0 4px 19px rgba(0, 0, 0, 0.56);
+    background-image: url(../backdrop.png)
 }
 
 .text {

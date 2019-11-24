@@ -8,6 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
     <link rel="stylesheet" type="text/css" href="../Stylesheet/paddgame.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
+    <style>
+        .underline:hover{
+            color: rgba(32, 219, 231, 0.7)
+        }
+    </style>
 
 </head>
 <body>
@@ -32,19 +37,19 @@
             <!-- Game Price -->
             <asp:TextBox class="textbox" ID="TextBox3" runat="server" placeholder="Game Price(in Rs)"></asp:TextBox>
             
-            <asp:Button class="button" ID="Button3" runat="server" OnClick="Button3_Click" Text="Add" />
+            <asp:Button class="button" ID="Button3" runat="server" OnClick="Button3_Click" Text="Add" style="margin-bottom:30px"/>
             <asp:Label class="tinytext" ID="Label1" runat="server" Text=""></asp:Label>
             
             <!-- back to dashboard -->
-            <a class="underline" href="pdashbord.aspx">back to dashboard</a>
+            <a class="underline" href="pdashbord.aspx" style="font-size:22px; border:double rgba(32, 219, 231, 0.7); top:15px;">back to dashboard</a>
             </div>
 
             <div class="right">
             <!-- image -->
-            <asp:Image class="image" ID="Image1" runat="server" Height = "200" Width = "200" />
+            <asp:Image class="image" ID="Image1" runat="server" Height = "250" Width = "250" />
 
             <!-- Select Picture -->
-            <asp:FileUpload ID="FileUpload1" runat="server" />
+            <asp:FileUpload ID="FileUpload1" runat="server" style="padding-top:15px" />
             <asp:Button class="button" ID="Button6" runat="server" OnClick="Button6_Click" Text="upload" /> 
             </div>
 

@@ -55,7 +55,7 @@
                     <asp:Button CssClass="button" ID="Button1" runat="server"  OnClick="Button1_Click" Text="buy now"  /> 
                 
                     <!-- back to dashboard -->
-                    <a class="underline" id="btd" href="../login/user.aspx" style="font-size:22px; border:double rgba(32, 219, 231, 0.7)">back to dashboard</a>
+                    <a class="underline" id="btd" href="../login/user.aspx" style="font-size:22px; border:double rgba(32, 219, 231, 0.7);top:175px">back to dashboard</a>
 
                 </div> 
                     

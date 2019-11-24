@@ -14,6 +14,6 @@
         <a href="welcome.aspx"><p class="FadeOut animated center">VAPOR</p></a>
         <div class="FadeOut rect animated SizeDown"></div>
     </form>
-    <a href="welcome.aspx">welcome.aspx</a>
+    
 </body>
 </html>
