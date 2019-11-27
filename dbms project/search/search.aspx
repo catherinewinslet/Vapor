@@ -27,7 +27,7 @@
                 <h2><asp:Label ID="Label1" runat="server"></asp:Label></h2>
 
                 <p class="text">Enter the game to be searched</p>         
-                <asp:TextBox class="textbox" ID="TextBox1" runat="server" placeholder="Game Name" BackColor="#BFBEC2"></asp:TextBox>
+                <asp:TextBox class="textbox" ID="TextBox1" runat="server" placeholder="Game Name" BackColor="#BFBEC2" style="background-color:#252525"></asp:TextBox>
                 <asp:Button class="button" ID="Button1" runat="server" Text="Search"  OnClick="Button1_Click" />
                 <asp:Label class="tinytext" ID="Label2" runat="server"></asp:Label>
             </div>

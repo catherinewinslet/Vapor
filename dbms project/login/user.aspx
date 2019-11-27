@@ -8,6 +8,12 @@
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="../Stylesheet/user.css" />
+    <style>
+        #underline:hover
+        {
+            color:rgba(32, 219, 231, 0.7)
+        }
+    </style>
 </head>
 <body>
 <form id="form1" runat="server">
@@ -23,18 +29,18 @@
        </div>
 
 
-            <div class="mainmedium">
+            <div class="mainmedium" style="padding-top:50px; padding-bottom:50px">
                 
-                <p class="tinytext t1">Welcome, <asp:Label CssClass="label" ID="Label2" runat="server" Text="Label"></asp:Label></p>
+                <p class="tinytext t1" style="font-size:22px">Welcome, <asp:Label CssClass="label" ID="Label2" runat="server" Text="Label"></asp:Label></p>
                 
                 <!-- search for new game -->
-                <a class="tinytext t2" id="underline" href="../search/search.aspx"><u>search for a new game</u></a>
+                <a class="tinytext t2" id="underline" href="../search/search.aspx" style="font-size:22px; border:double rgba(32, 219, 231, 0.7) ; padding-left:20px; padding-top:10px;padding-bottom:10px">search for a new game</a>
                 
                 <div class="overflow">
                 <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" style="margin-left: 45px; margin-top: 17px" Width="1131px" AutoGenerateColumns="false" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                     <Columns>
                         <asp:BoundField DataField="game_name" HeaderText="name"/>
-                            
+                        
                 <asp:TemplateField HeaderText="Image">
                       <ItemTemplate>
                         <asp:Image ID="image1" runat="server" Width="300px" Height="300px" ImageUrl='<%#"data:Image/png;base64,"+Convert.ToBase64String ((byte[])Eval("img")) %>'/>

@@ -27,7 +27,7 @@
                 <asp:TextBox class="textbox t2" ID="TextBox2" type="password" runat="server" placeholder="Password" ></asp:TextBox>
                 
                 <!-- show password -->
-                <p class="tinytext"><input type="checkbox" onclick="myFunction()"/>Show Password</p>
+                <p class="tinytext" style="padding-left: 56px;padding-top: 20px;"><input type="checkbox"  onclick="myFunction()"/>Show Password</p>
                 
                 <script>
                 function myFunction() {
@@ -41,7 +41,7 @@
                 </script>    
 
                 <!-- age -->
-                <asp:TextBox class="textbox t3" ID="TextBox4" runat="server" placeholder="Age" BackColor="#BFBEC2"></asp:TextBox>
+                <asp:TextBox class="textbox t3" ID="TextBox4" runat="server" placeholder="Age" BackColor="#BFBEC2" style="background-color:#252525"></asp:TextBox>
 
                 <asp:Button class="button" ID="Button1" runat="server" Text="REGISTER" Width="181px" OnClick="Button1_Click" />
 
