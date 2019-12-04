@@ -9,10 +9,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace dbms_project.publisher_login
 {
+    
     public partial class paddgame : System.Web.UI.Page
     {
+        string fileName=null, fileExtension=null;
+        HttpPostedFile postedFile;
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Users\Archit\source\repos\dbms project\dbms project\App_Data\mydata.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -49,6 +53,9 @@ namespace dbms_project.publisher_login
 
         protected void Button6_Click(object sender, EventArgs e)
         {
+            postedFile = FileUpload1.PostedFile;
+            fileName = Path.GetFileName(postedFile.FileName);
+            fileExtension = Path.GetExtension(fileName);
             string folderPath = Server.MapPath("~/Files/");
 
             //Check whether Directory (Folder) exists.
@@ -63,14 +70,28 @@ namespace dbms_project.publisher_login
 
             //Display the Picture in Image control.
             Image1.ImageUrl = "~/Files/" + Path.GetFileName(FileUpload1.FileName);
+            
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-     
-            HttpPostedFile postedFile = FileUpload1.PostedFile;
-            string fileName = Path.GetFileName(postedFile.FileName);
-            string fileExtension = Path.GetExtension(fileName);
+            if (string.IsNullOrEmpty(fileName))
+            {
+                postedFile = FileUpload1.PostedFile;
+                fileName = Path.GetFileName(postedFile.FileName);
+                fileExtension = Path.GetExtension(fileName);
+            }
+            //Save the File to the Directory (Folder).
+            string folderPath = Server.MapPath("~/Files/");
+            if (!Directory.Exists(folderPath))
+            {
+                //If Directory (Folder) does not exists Create it.
+                Directory.CreateDirectory(folderPath);
+            }
+            FileUpload1.SaveAs(folderPath + Path.GetFileName(FileUpload1.FileName));
+
+            //Display the Picture in Image control.
+            Image1.ImageUrl = "~/Files/" + Path.GetFileName(FileUpload1.FileName);
             int fileSize = postedFile.ContentLength;
             if (fileExtension.ToLower() == ".jpg" || fileExtension.ToLower() == ".bmp" || fileExtension.ToLower() == ".gif" || fileExtension.ToLower() == ".png")
             {

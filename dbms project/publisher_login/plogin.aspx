@@ -40,7 +40,7 @@
                 
                 <asp:Button  class="button" ID="Button1" runat="server" OnClick="Button1_Click" Text="LOGIN"/>
                 
-                <asp:Label class="tinytext" ID="Label1" runat="server"></asp:Label>
+                <asp:Label class="tinytext" ID="Label1" runat="server" style="position: relative;top: 250px;left: -50px;"></asp:Label>
             
         </div>
 

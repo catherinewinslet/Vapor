@@ -13,6 +13,22 @@
         {
             color:rgba(32, 219, 231, 0.7)
         }
+          table {
+            text-align: center;
+            font:large;
+            
+            font-size:25px;
+            text-transform:uppercase;
+            color:white;
+        }
+        td{
+            padding:15px;
+            
+        }
+        th{
+            padding:15px;
+            color:#ffeb99;
+        }
     </style>
 </head>
 <body>
@@ -48,14 +64,7 @@
 
                 </asp:TemplateField>
                     </Columns>
-                    <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
-                    <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
-                    <RowStyle BackColor="White" ForeColor="#003399" />
-                    <SelectedRowStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
-                    <SortedAscendingCellStyle BackColor="#EDF6F6" />
-                    <SortedAscendingHeaderStyle BackColor="#0D4AC4" />
-                    <SortedDescendingCellStyle BackColor="#D6DFDF" />
-                    <SortedDescendingHeaderStyle BackColor="#002876" />
+                    
                 </asp:GridView></div>
 
                 

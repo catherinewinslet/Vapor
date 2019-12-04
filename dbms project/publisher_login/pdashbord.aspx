@@ -8,8 +8,26 @@
     <link rel="stylesheet" type="text/css" href="../Stylesheet/stylesheet1.css" />
     <link rel="stylesheet" type="text/css" href="../Stylesheet/pdashbord.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet"/>
-
+    <style>
+          table {
+            text-align: center;
+            font:large;
+            
+            font-size:25px;
+            text-transform:uppercase;
+            color:white;
+        }
+        td{
+            padding:15px;
+            
+        }
+        th{
+            padding:15px;
+            color:#ffeb99;
+        }
+    </style>
 </head>
+    
 <body>
 <form id="form1" runat="server">
 
@@ -24,15 +42,13 @@
         <!-- line -->
     <div class="hline"></div>
     <div>
-    <div class="mainmedium">
+    <div class="mainmedium" style="height:600px; width:750px">
         <!-- welcome -->
-      <h1 class="tinytext"> Welcome <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></h1>
+      <h1 class="tinytext"> Welcome <asp:Label ID="Label1" runat="server" Text="Label" style="font-size:30px"></asp:Label></h1>
         
-        
-          
             <div>
                 
-                    <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical" Width="527px" AutoGenerateColumns="false">
+                    <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="White" GridLines="Vertical" Width="527px" AutoGenerateColumns="false">
                         <Columns>
                             <asp:BoundField DataField="game_name" HeaderText="name"/>
                             
@@ -46,15 +62,7 @@
                              
 
                         </Columns>
-                        <AlternatingRowStyle BackColor="#CCCCCC" />
-                        <FooterStyle BackColor="#CCCCCC" />
-                        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
-                        <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
-                        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
-                        <SortedAscendingCellStyle BackColor="#F1F1F1" />
-                        <SortedAscendingHeaderStyle BackColor="#808080" />
-                        <SortedDescendingCellStyle BackColor="#CAC9C9" />
-                        <SortedDescendingHeaderStyle BackColor="#383838" />
+                       
             </asp:GridView>
             </div>
         
